@@ -9,7 +9,8 @@ import os
 
 DBHOST = "ds2022.cqee4iwdcaph.us-east-1.rds.amazonaws.com"
 DBUSER = "admin"
-DBPASS = os.getenv('DBPASS')
+# DBPASS = os.getenv("DBPASS")
+DBPASS = 'D$2022pAss'
 DB = "ega9cw"
 
 db = mysql.connector.connect(user=DBUSER, host=DBHOST, password=DBPASS, database=DB)
